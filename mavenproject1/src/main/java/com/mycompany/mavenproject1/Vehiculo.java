@@ -12,7 +12,19 @@ public class Vehiculo {
     
     private int id;
     private String marca;
-
+    
+    //definición de un constructor
+    //el constructor tiene el mismo nombre de la clase
+    Vehiculo(int i, String m){
+        this.id=i;
+        this.marca=m;
+    }
+    //la profe recomienda dejar instanciado el constructor
+    Vehiculo(){
+        
+    }
+    
+    
     public int getId() {
         return id;
     }
