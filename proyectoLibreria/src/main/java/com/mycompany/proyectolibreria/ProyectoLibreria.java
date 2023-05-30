@@ -23,6 +23,20 @@ public class ProyectoLibreria {
     objLibro1.agregarAutor(416,"Rosa Perez", "Francesa");
     
     
+    //comprobamos los autores, hasta aquí entrega la posición en memoria
+        System.out.println("Autores " + objLibro1.getAutores());
+        
+    //comprobamos los autores, hasta aquí entrega la posición en memoria
+        System.out.println("Autores " + objLibro1.getAutores().get(0).getNombre());
+        System.out.println("Autores " + objLibro1.getAutores().get(1).getNombre());
+        
+        System.out.println("Tipo ciclo");
+        //<>
+        for(int i=0;i<objLibro1.getAutores().size() ; i++){
+            
+            System.out.println("Autore del libro:  " + objLibro1.getAutores().get(i).getNombre());
+        }
+        
     } 
     
     

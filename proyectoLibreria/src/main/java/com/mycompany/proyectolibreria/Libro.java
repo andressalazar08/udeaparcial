@@ -95,8 +95,8 @@ public class Libro {
         this.valor = valor;
     }
 
-    public ArrayList getAutores() {
-        return Autores;
+    public ArrayList<Autor> getAutores() {
+        return Autores;//este método devuelve el array list conformado
     }
 
     public void setAutores(ArrayList Autores) {
