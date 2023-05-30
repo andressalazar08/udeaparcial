@@ -11,6 +11,20 @@ package com.mycompany.proyectolibreria;
 public class Tecnico extends Libro {
     private String ISBN;
     private int nroCapitulos;
+    
+    //Definición del consturctor
+    Tecnico(int cl, String ISBN, int nc){ //código del libro, isbn, numero de capítulos
+        this.ISBN= ISBN;
+        this.nroCapitulos=nc;
+        super.setCodigoLibro(cl);
+    
+    }
+    
+    
+    //Constructor por defecto
+    Tecnico(){
+        
+    }
 
     public String getISBN() {
         return ISBN;

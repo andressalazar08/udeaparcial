@@ -37,6 +37,13 @@ public class ProyectoLibreria {
             System.out.println("Autore del libro:  " + objLibro1.getAutores().get(i).getNombre());
         }
         
+        //Para crear un objeto de la clase Tecnico
+        Tecnico objLibroTecnico =  new Tecnico(241,"jgt-001", 5);
+        
+       // objLibroTecnico = 
+        
+        
+        
     } 
     
     

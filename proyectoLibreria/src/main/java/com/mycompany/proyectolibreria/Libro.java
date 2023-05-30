@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * @author miude
  */
 public class Libro {
-    private  int codigo;
+    private  int codigoLibro;
     private String titulo;
     private String editorial;
     private int anoEdicion;
@@ -31,12 +31,12 @@ public class Libro {
     
     
     
-    public int getCodigo() {
-        return codigo;
+    public int getCodigoLibro() {
+        return codigoLibro;
     }
 
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
+    public void setCodigoLibro(int codigo) {
+        this.codigoLibro = codigo;
     }
 
     public String getTitulo() {
