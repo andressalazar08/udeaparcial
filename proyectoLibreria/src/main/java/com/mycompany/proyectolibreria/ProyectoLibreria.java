@@ -16,7 +16,7 @@ public class ProyectoLibreria {
     
     //creo el objeto
     Libro objLibro1 =  new Libro();
-    objLibro1.setCodigo(123);
+    
     objLibro1.setTitulo("Roma");
     objLibro1.setAnoEdicion(2022);
     objLibro1.agregarAutor(875,"Santiago Posteguillo", "Español");

@@ -13,6 +13,6 @@ import java.util.ArrayList;
 public class Proveedor {
     private String idProveedor;
     private String nombre;
-    private ArrayList<Autor>  editoriales = ;
+    //private ArrayList<Autor>  editoriales = ;
     
 }
